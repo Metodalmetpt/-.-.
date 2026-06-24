@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учусь.РФ — Онлайн курсы дистанционного обучения</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-accent sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="assets/img/20220922_logo.jpg" alt="Логотип" height="36" class="me-2 rounded">
+                Учусь.РФ
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="assets/pages/order.html">Записаться</a></li>
+                    <li class="nav-item"><a class="nav-link" href="assets/pages/cabinet.html">Личный кабинет</a></li>
+                    <li class="nav-item"><a class="nav-link" href="assets/pages/login.html">Вход</a></li>
+                    <li class="nav-item"><a class="nav-link" href="assets/pages/admin.html">Админ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero с фоновым изображением -->
+    <header class="hero text-white text-center d-flex align-items-center"
+        style="background-image:linear-gradient(rgba(13,71,161,.75),rgba(0,123,255,.75)),url('assets/img/hero.png');">
+        <div class="container py-5">
+            <h1 class="fw-bold mb-3">Записи на онлайн-курсы дистанционного обучения</h1>
+            <p class="lead mb-4">Повышение квалификации · Переподготовка · Курсы по охране труда</p>
+            <a href="assets/pages/register.html" class="btn btn-light btn-lg me-2">Регистрация</a>
+            <a href="assets/pages/order.html" class="btn btn-outline-light btn-lg">Оставить заявку</a>
+        </div>
+    </header>
+
+    <!-- Слайдер -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Наши направления</h2>
+        <div id="mainSlider" class="carousel slide rounded shadow-sm overflow-hidden" data-bs-ride="carousel"
+            data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/все-курсы.jpg" class="d-block w-100 slider-img" alt="Все курсы">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/course_1.jpg" class="d-block w-100 slider-img" alt="Курс 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slide18-l-1.jpg" class="d-block w-100 slider-img" alt="Слайд">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/1675870847_grizly-club-p-klipart-ku.jpg" class="d-block w-100 slider-img"
+                        alt="Клуб">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Карточки курсов с картинками -->
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm card-hover">
+                    <img src="assets/img/image (1).jpeg" class="card-img-top course-thumb" alt="">
+                    <div class="card-body">
+                        <h3 class="h5 fw-bold">Повышение квалификации</h3>
+                        <p class="text-secondary">Актуализируйте свои профессиональные знания и навыки.</p>
+                        <a href="assets/pages/order.html" class="btn btn-primary btn-sm">Записаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm card-hover">
+                    <img src="assets/img/image (2).jpeg" class="card-img-top course-thumb" alt="">
+                    <div class="card-body">
+                        <h3 class="h5 fw-bold">Переподготовка</h3>
+                        <p class="text-secondary">Освойте новую профессию с нуля в удобном формате.</p>
+                        <a href="assets/pages/order.html" class="btn btn-primary btn-sm">Записаться</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm card-hover">
+                    <img src="assets/img/image (3).jpeg" class="card-img-top course-thumb" alt="">
+                    <div class="card-body">
+                        <h3 class="h5 fw-bold">Охрана труда</h3>
+                        <p class="text-secondary">Обязательное обучение и аттестация по охране труда.</p>
+                        <a href="assets/pages/order.html" class="btn btn-primary btn-sm">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества с иконками -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Почему выбирают нас</h2>
+        <div class="row text-center g-4">
+            <div class="col-md-4">
+                <img src="assets/img/diploma.webp" alt="Диплом" class="feature-icon mb-3">
+                <h3 class="h6">Документ государственного образца</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="assets/img/quality.webp" alt="Качество" class="feature-icon mb-3">
+                <h3 class="h6">Высокое качество обучения</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="assets/img/students_corner.png" alt="Студенты" class="feature-icon mb-3">
+                <h3 class="h6">Поддержка студентов 24/7</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Наше местонахождение</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Адрес головного офиса:</strong> г. Москва, ул. Большая Ордынка, д. 15</p>
+                    <p><strong>Телефон горячей линии:</strong> +7 (495) 123-45-67</p>
+                    <p class="text-secondary">Если возникли вопросы или пожелания — позвоните нам. Ответим оперативно и
+                        подробно.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="h5">Варианты оплаты</h3>
+                    <ul>
+                        <li>Предоплата по QR-коду</li>
+                        <li>Оплата картой МИР</li>
+                        <li>Постоплата в офисе организации</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-accent text-white text-center py-4">
+        <div class="mb-2">
+            <a href="#"><img src="assets/img/soc.png" alt="Соцсеть" class="social-icon"></a>
+            <a href="#"><img src="assets/img/social.png" alt="Соцсеть" class="social-icon"></a>
+            <a href="#"><img src="assets/img/social.jpg" alt="Соцсеть" class="social-icon"></a>
+        </div>
+        <small>© 2026 Учусь.РФ — портал онлайн-обучения</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/main/app.js"></script>
+</body>
+
+</html>
